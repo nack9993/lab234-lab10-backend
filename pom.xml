@@ -76,7 +76,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>backend</finalName>
+		<finalName>nack9993</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
