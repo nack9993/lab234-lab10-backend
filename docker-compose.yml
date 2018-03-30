@@ -1,10 +1,10 @@
 version: '3.3'
 services:
  backend:
-  image: [nack9993]/se234-lab10-backend:latest
+  image: nack9993/se234-lab10-backend:latest
   ports:
    -"8082:8080"
-  frontend:
-   image: [nack9993]/se234-lab10-backend
-   ports:
+frontend:
+  image: nack9993/se234-lab10-backend
+  ports:
    -"8081:80"
